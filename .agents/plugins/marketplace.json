@@ -1,0 +1,20 @@
+{
+  "name": "staffmor",
+  "interface": {
+    "displayName": "Staffmor"
+  },
+  "plugins": [
+    {
+      "name": "staffmor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/staffmor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

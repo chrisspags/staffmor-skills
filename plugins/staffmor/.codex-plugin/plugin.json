@@ -1,0 +1,47 @@
+{
+  "name": "staffmor",
+  "version": "0.1.0",
+  "description": "Planning, specs, experiments, visual review and lifecycle email methods from Staffmor, the AI team office.",
+  "author": {
+    "name": "Staffmor",
+    "email": "staffmor@gmail.com",
+    "url": "https://staffmor.com/"
+  },
+  "homepage": "https://staffmor.com/",
+  "repository": "https://github.com/staffmor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "ai team",
+    "agents",
+    "planning",
+    "spec",
+    "experiments",
+    "visual review",
+    "email marketing",
+    "lifecycle email"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Staffmor",
+    "shortDescription": "Team methods for AI agents",
+    "longDescription": "Five working methods Staffmor gives its AI teams: map the unknowns before a decision, turn a big feature into small verifiable units, run a bounded experiment with a fixed baseline, compare a build against its visual reference, and plan email sequences that convert. Each skill keeps the original author's credit and MIT license.",
+    "developerName": "Staffmor",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://staffmor.com/",
+    "privacyPolicyURL": "https://staffmor.com/privacy/",
+    "termsOfServiceURL": "https://staffmor.com/terms/",
+    "defaultPrompt": [
+      "Map what we know and don't know before we pick an approach",
+      "Split this feature into small units we can each verify",
+      "Plan a welcome email sequence for new signups"
+    ],
+    "brandColor": "#192724",
+    "composerIcon": "./assets/staffmor.svg",
+    "logo": "./assets/app-icon.png",
+    "screenshots": []
+  }
+}

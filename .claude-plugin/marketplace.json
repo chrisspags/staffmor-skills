@@ -1,0 +1,16 @@
+{
+  "name": "staffmor",
+  "owner": {
+    "name": "Staffmor",
+    "url": "https://staffmor.com/"
+  },
+  "description": "Staffmor's team methods for AI agents: planning, specs, experiments, visual review and lifecycle email.",
+  "plugins": [
+    {
+      "name": "staffmor",
+      "source": "./plugins/staffmor",
+      "description": "Planning, specs, experiments, visual review and lifecycle email methods from Staffmor, the AI team office.",
+      "version": "0.1.0"
+    }
+  ]
+}
