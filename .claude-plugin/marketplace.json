@@ -4,13 +4,13 @@
     "name": "Staffmor",
     "url": "https://staffmor.com/"
   },
-  "description": "Staffmor's team methods for AI agents: planning, specs, experiments, visual review and lifecycle email.",
+  "description": "Staffmor's AI team roles and methods for Codex, ChatGPT and Claude Code.",
   "plugins": [
     {
       "name": "staffmor",
       "source": "./plugins/staffmor",
-      "description": "Planning, specs, experiments, visual review and lifecycle email methods from Staffmor, the AI team office.",
-      "version": "0.1.0"
+      "description": "Staffmor's AI team: 91 roles and methods for work, business, creative and personal projects, the same skills Staffmor members use.",
+      "version": "0.2.0"
     }
   ]
 }

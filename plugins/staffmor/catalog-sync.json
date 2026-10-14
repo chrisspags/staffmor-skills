@@ -1,0 +1,735 @@
+{
+ "catalogVersion": "1.0.4-dzhng-methods-source",
+ "count": 91,
+ "rule": "catalog entries with dispatchEligible true; held entries are never copied",
+ "entries": [
+  {
+   "publicId": "skill_124e379e3578685e",
+   "key": "agency-testing/accessibility-auditor-124e379e",
+   "name": "Accessibility Auditor",
+   "slug": "accessibility-auditor",
+   "origin": "acquired",
+   "guideSha256": "3393afa9079d08dbcc8aa29e66f7da376c552311b312cb57bc77e5f3a50a9245"
+  },
+  {
+   "publicId": "skill_d25e019e0246a98a",
+   "key": "staffmor.customer45.accountant",
+   "name": "Accountant",
+   "slug": "accountant",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "a3669fd93127e98d609ea0cfdc39396c59145b742743ad7c628853b349b21780"
+  },
+  {
+   "publicId": "skill_4eb8b20ef1d55bed",
+   "key": "staffmor.customer45.aging-parent-care-organizer",
+   "name": "Aging Parent Care Organizer",
+   "slug": "aging-parent-care-organizer",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "d65be90d41cc42e45bc8e8f3395e412a3afec373d1862591920c2c904a7a5280"
+  },
+  {
+   "publicId": "skill_ad899f4012f244bd",
+   "key": "staffmor.customer45.ai-and-automation-engineer",
+   "name": "AI and Automation Engineer",
+   "slug": "ai-and-automation-engineer",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "c960996c90df8e3e780d56a7d14e0b0bc660dba99675767c0b981ddaadefe74f"
+  },
+  {
+   "publicId": "skill_44e4079be63817e6",
+   "key": "staffmor.customer45.ai-companion",
+   "name": "AI Companion",
+   "slug": "ai-companion",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "80eb335774e27315cb24c354b6f8f112baf7b02279a025543e2f8fa875cd7cfb"
+  },
+  {
+   "publicId": "skill_5574b878af9de2f5",
+   "key": "agency-academic/anthropologist-5574b878",
+   "name": "Anthropologist",
+   "slug": "anthropologist",
+   "origin": "acquired",
+   "guideSha256": "a8b27a625e12d4c1589f078d2b113d90067ba50e142539c12b9f50b8785b5293"
+  },
+  {
+   "publicId": "skill_a020266bfcfc40b3",
+   "key": "agency-testing/api-tester-a020266b",
+   "name": "API Tester",
+   "slug": "api-tester",
+   "origin": "acquired",
+   "guideSha256": "fa2c1d5f91629bfd6658292af8857a1f4e1babdc5fd1e7eca27bee345b1a6415"
+  },
+  {
+   "publicId": "skill_5d0d623f9123bba0",
+   "key": "tobia/app-designer",
+   "name": "App Designer",
+   "slug": "app-designer",
+   "origin": "owner-supplied-source",
+   "guideSha256": "e5cc187bc3117abb7208759f26e111476983ec3809cb34079b4d85af1e4dfeda"
+  },
+  {
+   "publicId": "skill_35a8adf4faafd619",
+   "key": "staffmor.customer45.astrology-and-reflection-guide",
+   "name": "Astrology and Reflection Guide",
+   "slug": "astrology-and-reflection-guide",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "8a0a370791cba1725bc5fd66d64bedcc4b18ec0defc5094591189b7629d66eb1"
+  },
+  {
+   "publicId": "skill_434d9cb8c8c1ef82",
+   "key": "agency-engineering/backend-architect-434d9cb8",
+   "name": "Backend Architect",
+   "slug": "backend-architect",
+   "origin": "acquired",
+   "guideSha256": "b6fd482953619cb0923303f728534a151dd39cf7b471c0c001daf27a56fb24cf"
+  },
+  {
+   "publicId": "skill_bfa00d52b052ab3f",
+   "key": "dzhng/auto-research",
+   "name": "Bounded Auto Research",
+   "slug": "bounded-auto-research",
+   "origin": "upstream-mit-curated-method",
+   "guideSha256": "0d2d7eaf8f69f89b24c205ad5566b7909e46942c697c0b1477aeb9f40d2e88af"
+  },
+  {
+   "publicId": "skill_874cc137522c1a2a",
+   "key": "staffmor.customer45.business-bookkeeper",
+   "name": "Business Bookkeeper",
+   "slug": "business-bookkeeper",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "c1078fe537892ddd402a0bfa8c60ccc1be5e494df8a0f7fa9788b1a5a5c608fe"
+  },
+  {
+   "publicId": "skill_73cc8e4c6ce24d74",
+   "key": "staffmor.customer45.business-operations-partner",
+   "name": "Business Operations Partner",
+   "slug": "business-operations-partner",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "5357be7fb64e9f869813d43f9fd017fa82c8025e6fd5014e55c78d49fa3fef19"
+  },
+  {
+   "publicId": "skill_93681004771caa90",
+   "key": "staffmor.customer45.career-coach",
+   "name": "Career Coach",
+   "slug": "career-coach",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "626b60df7ecc66faa9e77bbdf4abde7b5af07b0a25688967a36f37e681185ca8"
+  },
+  {
+   "publicId": "skill_527c9a9d941bbe8f",
+   "key": "staffmor.specialists.channel-packaging-designer",
+   "name": "Channel Packaging Designer",
+   "slug": "channel-packaging-designer",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "51bfc392c48a33f80fff26e4fa0873b49e3eda98258585f7f3b0f8003fdde95e"
+  },
+  {
+   "publicId": "skill_b128079de87ad2e3",
+   "key": "agency-engineering/codebase-onboarding-engineer-b128079d",
+   "name": "Codebase Onboarding Engineer",
+   "slug": "codebase-onboarding-engineer",
+   "origin": "acquired",
+   "guideSha256": "600c99921501e22bffe507c689cbd209473b87eb019781ce2804befc82c38338"
+  },
+  {
+   "publicId": "skill_bfd34718ddb48a73",
+   "key": "dzhng/compare-screenshots",
+   "name": "Compare Screenshots",
+   "slug": "compare-screenshots",
+   "origin": "upstream-mit-curated-method",
+   "guideSha256": "c7e9ed421379ffe4573e6e5f13547f72432ac4ba02086755cf0556132a25d631"
+  },
+  {
+   "publicId": "skill_fef3885eacf7520b",
+   "key": "staffmor.specialists.conversion-sales",
+   "name": "Conversion and Sales Specialist",
+   "slug": "conversion-and-sales-specialist",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "885d5897d9321048f72a52d3dfced3ad1881f70196c2e8c9a9ebbfe761ffcaca"
+  },
+  {
+   "publicId": "skill_1f685d24f00d66dd",
+   "key": "staffmor.customer45.cooking-and-nutrition-partner",
+   "name": "Cooking and Nutrition Partner",
+   "slug": "cooking-and-nutrition-partner",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "7d88d01516ae8f9e5caed8bb3d98f51659ec5145b52e58edcbf982f46048bfa1"
+  },
+  {
+   "publicId": "skill_c8e8cd77d95042f5",
+   "key": "staffmor.customer45.customer-support-partner",
+   "name": "Customer Support Partner",
+   "slug": "customer-support-partner",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "afc944cbb9c7f17a1bb2f6d9e09d4bdba2f018fdefc5b17fc5dcf56f9f592995"
+  },
+  {
+   "publicId": "skill_52064f14f30580b5",
+   "key": "staffmor.customer45.data-and-spreadsheet-analyst",
+   "name": "Data and Spreadsheet Analyst",
+   "slug": "data-and-spreadsheet-analyst",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "ff2d4327fc67dd58a008c27d1637a40152be93a6e378b4773955d5f8399a249e"
+  },
+  {
+   "publicId": "skill_9b5d155ab5382296",
+   "key": "agency-engineering/data-engineer-9b5d155a",
+   "name": "Data Engineer",
+   "slug": "data-engineer",
+   "origin": "acquired",
+   "guideSha256": "ab96c1ef7051b49262660788e82f268114a75c3eb6d3b45f95eb79c442296a0e"
+  },
+  {
+   "publicId": "skill_61de5c327fe59260",
+   "key": "staffmor.specialists.data-engineering-validation",
+   "name": "Data Engineering and Validation Specialist",
+   "slug": "data-engineering-and-validation-specialist",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "9c8ea7fe159b5926e2f75b66e0efbf323279be7d69b59202c414bb5838ed497c"
+  },
+  {
+   "publicId": "skill_44166ec1ccfe659e",
+   "key": "staffmor.specialists.data-visualization-designer",
+   "name": "Data Visualization Designer",
+   "slug": "data-visualization-designer",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "cc5d08b4fb5e4791fe300fa58b90c8fdb026d1a2a1964a049f9ce706d8269ba2"
+  },
+  {
+   "publicId": "skill_fd5cda1fcfcee6fb",
+   "key": "staffmor.customer45.database-administrator",
+   "name": "Database Administrator",
+   "slug": "database-administrator",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "5b1798bab8cfe525d2f9851e82d889b67b73d6e3bb92e5c5dd740b9dacfd7161"
+  },
+  {
+   "publicId": "skill_79ae2b9583e21d85",
+   "key": "agency-engineering/database-optimizer-79ae2b95",
+   "name": "Database Optimizer",
+   "slug": "database-optimizer",
+   "origin": "acquired",
+   "guideSha256": "6a00ebfa2d8524a654eddf2e4f487c0aadbf9829c77c52dff82c24076f97be96"
+  },
+  {
+   "publicId": "skill_7b4416446f864f31",
+   "key": "agency-engineering/database-reliability-engineer-7b441644",
+   "name": "Database Reliability Engineer",
+   "slug": "database-reliability-engineer",
+   "origin": "acquired",
+   "guideSha256": "a43bfc40ea148b2860bb169d7eaf2802eb8f1e18613f19c83dd7ffe84ef47486"
+  },
+  {
+   "publicId": "skill_ee043ed337b26522",
+   "key": "agency-specialized/document-generator-ee043ed3",
+   "name": "Document Generator",
+   "slug": "document-generator",
+   "origin": "acquired",
+   "guideSha256": "eb50219774ee879caf98dd67677a6affddff5af4db2673136a861b4ed5ff344e"
+  },
+  {
+   "publicId": "skill_e117ad4323572d89",
+   "key": "staffmor.customer45.documents-and-presentations-specialist",
+   "name": "Documents and Presentations Specialist",
+   "slug": "documents-and-presentations-specialist",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "88e509e038a7a144dcb7a4e23fefbf6eecc4ac13bceb1f0f90c08011afb16880"
+  },
+  {
+   "publicId": "skill_dd10cb3ea3d976e5",
+   "key": "first-party/dr-vale-dfs-analyst",
+   "name": "Dr. Vale \u2014 DFS Analyst",
+   "slug": "dr-vale-dfs-analyst",
+   "origin": "first-party",
+   "guideSha256": "39ad8e5bd74a8a3ac6b409b793e6de10f686514d6debf098d28b165de4652cf4"
+  },
+  {
+   "publicId": "skill_17fe17aec91ca02d",
+   "key": "first-party/dr-vale-sports-betting-analyst",
+   "name": "Dr. Vale \u2014 Sports Betting Analyst",
+   "slug": "dr-vale-sports-betting-analyst",
+   "origin": "first-party",
+   "guideSha256": "d6007947faf4e9f7b341ac83ac11a044fe62c54f79a29bd0adcb7a7da2eaa3d5"
+  },
+  {
+   "publicId": "skill_51a6d3a804250bbe",
+   "key": "coreyhaines31/emails",
+   "name": "Email Sequences and Lifecycle Email",
+   "slug": "email-sequences-and-lifecycle-email",
+   "origin": "upstream-mit-curated-method",
+   "guideSha256": "351e008c7d4f4eea7597b31f764ed71d1bf76f45a128a45e8345f46d66ae3d35"
+  },
+  {
+   "publicId": "skill_e3aa1bc920e55dec",
+   "key": "agency-support/executive-summary-generator-e3aa1bc9",
+   "name": "Executive Summary Generator",
+   "slug": "executive-summary-generator",
+   "origin": "acquired",
+   "guideSha256": "e421e57ee1027c573b6d51805b257f6e6706fda9361f50e0fa4bf791b4e38cbf"
+  },
+  {
+   "publicId": "skill_54d03f4204a41b77",
+   "key": "dzhng/explore-unknowns",
+   "name": "Explore Unknowns",
+   "slug": "explore-unknowns",
+   "origin": "upstream-mit-curated-method",
+   "guideSha256": "32a69f15064e18ff2d30d90689f620438c1066eafac95418fbf273617bbc3fe4"
+  },
+  {
+   "publicId": "skill_30b679727e7ef242",
+   "key": "staffmor.customer45.family-organizer",
+   "name": "Family Organizer",
+   "slug": "family-organizer",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "33f3b25ad4c8dc06434423cc2d7868f13ff0b9a8602298bbef59df6776eda90e"
+  },
+  {
+   "publicId": "skill_a5bbdc335518c74c",
+   "key": "staffmor.customer45.fantasy-and-dfs-analyst",
+   "name": "Fantasy and DFS Analyst",
+   "slug": "fantasy-and-dfs-analyst",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "e126aa216ae999219c5d5e9884d0694ad45f2baf25c96cb03cfc212a7c3c2d60"
+  },
+  {
+   "publicId": "skill_274b8140c76fd38f",
+   "key": "staffmor.customer45.fitness-and-sports-coach",
+   "name": "Fitness and Sports Coach",
+   "slug": "fitness-and-sports-coach",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "ee0b692624547962195a0d34e5837b3027f3aaf80fa104d5e8e2e353a0cce580"
+  },
+  {
+   "publicId": "skill_f7dddc41639e9abb",
+   "key": "staffmor.customer45.game-and-interactive-creator",
+   "name": "Game and Interactive Creator",
+   "slug": "game-and-interactive-creator",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "e68d4598dab3a5dfab2ae408ad5772b49e5737f5490faea101d791ee9c792877"
+  },
+  {
+   "publicId": "skill_11f17a093dd4c0f9",
+   "key": "staffmor.customer45.game-reverse-engineering-recompilation",
+   "name": "Game Reverse Engineering & Recompilation",
+   "slug": "game-reverse-engineering-and-recompilation",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "0d2d04e15c4c72905447cd5e7df7ad14beb75ebb36313ee502ad4bdc36c64dfb"
+  },
+  {
+   "publicId": "skill_5c71eef4ea2f4e86",
+   "key": "agency-academic/geographer-5c71eef4",
+   "name": "Geographer",
+   "slug": "geographer",
+   "origin": "acquired",
+   "guideSha256": "4e77e7bb1d3be54044674ac572d40a4b0cb209a6cca48e542600ea6afe1f5dea"
+  },
+  {
+   "publicId": "skill_b16da6a0152d5eed",
+   "key": "staffmor.specialists.growth-analyst",
+   "name": "Growth Analyst",
+   "slug": "growth-analyst",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "87696cc14c968bb1f23070cfcffea98d2b48f8b5b279875e91b428c6e93da921"
+  },
+  {
+   "publicId": "skill_fc43be68768b0593",
+   "key": "staffmor.customer45.health-information-navigator",
+   "name": "Health Information Navigator",
+   "slug": "health-information-navigator",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "a871e670cb473aa9791e4dfc371946400931f8bd1b8a438c54eb3f67f4b3921d"
+  },
+  {
+   "publicId": "skill_49b1646dd6321298",
+   "key": "agency-academic/historian-49b1646d",
+   "name": "Historian",
+   "slug": "historian",
+   "origin": "acquired",
+   "guideSha256": "9ed161c2fadcad3ec68a3c525d3399e59854d5ed364cce2415c3a75c4c7b8532"
+  },
+  {
+   "publicId": "skill_6d4447659ee212fe",
+   "key": "staffmor.customer45.home-and-garden-partner",
+   "name": "Home and Garden Partner",
+   "slug": "home-and-garden-partner",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "c25a295c6c91ac9bdbee41357b207fcd0831d67f8646b8dfcdbc41640387ef2d"
+  },
+  {
+   "publicId": "skill_7940dc291834f779",
+   "key": "staffmor.customer45.knowledge-organizer",
+   "name": "Knowledge Organizer",
+   "slug": "knowledge-organizer",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "4226ff35f06036f6c32ae8850d74984667a9a4395741fec7a7304dd58ae6534b"
+  },
+  {
+   "publicId": "skill_9c5f72fb7848215c",
+   "key": "agency-specialized/korean-business-navigator-9c5f72fb",
+   "name": "Korean Business Navigator",
+   "slug": "korean-business-navigator",
+   "origin": "acquired",
+   "guideSha256": "6415307adb046bc3d9d53cd8044227cab7b545e846a6f9c021126f33d0ae8f87"
+  },
+  {
+   "publicId": "skill_5a42ff455ba295d9",
+   "key": "staffmor.customer45.legal-and-compliance-researcher",
+   "name": "Legal and Compliance Researcher",
+   "slug": "legal-and-compliance-researcher",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "65febaf3922cd3ffc8aa4f6eb8ebc7e77706246dd8d497798c840ca0b5b1484a"
+  },
+  {
+   "publicId": "skill_49df841d0ae33ca0",
+   "key": "staffmor.customer45.marketing-and-seo-partner",
+   "name": "Marketing and SEO Partner",
+   "slug": "marketing-and-seo-partner",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "06f0be6f07c52358adefa662914a929c0411df4c930ed8b9b78556828959a3b2"
+  },
+  {
+   "publicId": "skill_dad56291a0090ed3",
+   "key": "staffmor.customer45.mathematician",
+   "name": "Mathematician",
+   "slug": "mathematician",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "8a348cd09101c6c14e8d0010c2d8aab37733b84313fe219288f4406731283aa4"
+  },
+  {
+   "publicId": "skill_17639eecdde3ebce",
+   "key": "agency-specialized/mcp-builder-17639eec",
+   "name": "MCP Builder",
+   "slug": "mcp-builder",
+   "origin": "acquired",
+   "guideSha256": "9365510d3fa81d4645406676bbc5e74b775255339513225936a461eacfd834ed"
+  },
+  {
+   "publicId": "skill_fe1808779f9d1a59",
+   "key": "agency-specialized/model-qa-specialist-fe180877",
+   "name": "Model QA Specialist",
+   "slug": "model-qa-specialist",
+   "origin": "acquired",
+   "guideSha256": "6c21237d8982fc423594be9c892a1bc0cfb849cfbe2f3f2cd713a9897c2ecba6"
+  },
+  {
+   "publicId": "skill_8191761db128debb",
+   "key": "staffmor.customer45.motion-and-video-creator",
+   "name": "Motion and Video Creator",
+   "slug": "motion-and-video-creator",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "d33992ee4cac4c287dd08f05ff0ec5a94bb2c4d851899e535645f4840e3d5ab1"
+  },
+  {
+   "publicId": "skill_262240649613b795",
+   "key": "staffmor/motion-design-engineer",
+   "name": "Motion Design Engineer",
+   "slug": "motion-design-engineer",
+   "origin": "first-party",
+   "guideSha256": "eff17b5309e65e3601684606ae343e79f57d64df8704355193ff2c3d3c9bc828"
+  },
+  {
+   "publicId": "skill_0b0ed1beb433bd64",
+   "key": "agency-engineering/multi-agent-systems-architect-0b0ed1be",
+   "name": "Multi-Agent Systems Architect",
+   "slug": "multi-agent-systems-architect",
+   "origin": "acquired",
+   "guideSha256": "557bbc4bcd70dd30a61aa2a595539e3d79387f77245dddb20fd443dfb0344d68"
+  },
+  {
+   "publicId": "skill_c01d71ba3b5948dd",
+   "key": "staffmor.customer45.music-and-creative-hobby-coach",
+   "name": "Music and Creative Hobby Coach",
+   "slug": "music-and-creative-hobby-coach",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "74134f36139c274ea93c901054892491da34df963dbdb8f11f2033ea21f59b23"
+  },
+  {
+   "publicId": "skill_5028a64c351f4766",
+   "key": "work-team/numbers",
+   "name": "Numbers & Reporting",
+   "slug": "numbers-and-reporting",
+   "origin": "staffmor-native",
+   "guideSha256": "6998fc92fcff808b4e3b74fb881b013cad4f810face6770540969e64f197e608"
+  },
+  {
+   "publicId": "skill_08061eff312c37b5",
+   "key": "agency-testing/performance-benchmarker-08061eff",
+   "name": "Performance Benchmarker",
+   "slug": "performance-benchmarker",
+   "origin": "acquired",
+   "guideSha256": "ba2c7c953d8a64c7326808d4f6557aa0d9128e1c66a6e0209d392f15349d4467"
+  },
+  {
+   "publicId": "skill_dafc84b0202cd8b1",
+   "key": "staffmor.customer45.personal-assistant-and-planner",
+   "name": "Personal Assistant and Planner",
+   "slug": "personal-assistant-and-planner",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "f6a35d92bbf635daa53fdb3606ec861cf98d1e671302e8e2b02d9807f865781e"
+  },
+  {
+   "publicId": "skill_7620d143a5215692",
+   "key": "staffmor.customer45.personal-finance",
+   "name": "Personal Finance",
+   "slug": "personal-finance",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "ae16caf607e5bf6fd923cd1fd7a61c053c9d88cf300aefce506af502c7f0ae57"
+  },
+  {
+   "publicId": "skill_704d048e0e3d3d03",
+   "key": "staffmor.customer45.pet-care-organizer",
+   "name": "Pet Care Organizer",
+   "slug": "pet-care-organizer",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "544085a2f44fe76b9ada1dec093b428976fc70b533c088111c87d0772c44342e"
+  },
+  {
+   "publicId": "skill_63a8f830cfe476db",
+   "key": "agency-specialized/pricing-analyst-63a8f830",
+   "name": "Pricing Analyst",
+   "slug": "pricing-analyst",
+   "origin": "acquired",
+   "guideSha256": "5a6fcaac70913f207cc27e41e995f8d6f6fdd10196ff35ca6c904f3499897b3e"
+  },
+  {
+   "publicId": "skill_dece315a7ab82aa8",
+   "key": "staffmor.customer45.probability-expert",
+   "name": "Probability Expert",
+   "slug": "probability-expert",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "c448f52e6dd9a297e27b468c7f2f859dc71839037240d3af1b21729c7a902b0b"
+  },
+  {
+   "publicId": "skill_6b28a29f67b647ec",
+   "key": "staffmor.customer45.product-and-project-partner",
+   "name": "Product and Project Partner",
+   "slug": "product-and-project-partner",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "f128d6a84a1e027645b46a83bd028333e8405d4b03f8db25a35afd4f34117688"
+  },
+  {
+   "publicId": "skill_a5611944fc50c0d3",
+   "key": "staffmor.specialists.product-web-designer-builder",
+   "name": "Product Web Designer and Builder",
+   "slug": "product-web-designer-and-builder",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "a5dbbe4e3c40a44d150dc7e0d65964ecf714625ffbb20eadbfafef545a3a3ef0"
+  },
+  {
+   "publicId": "skill_f645c8ba22c9555c",
+   "key": "staffmor.specialists.publishing-indexing-operations",
+   "name": "Publishing and Indexing Operations Specialist",
+   "slug": "publishing-and-indexing-operations-specialist",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "ee2ef92e8526342d1de66afb8b072aa04c8a7005afa10eb78e6ce4ceba76b6af"
+  },
+  {
+   "publicId": "skill_79a458b0348a24b2",
+   "key": "staffmor.specialists.qa-reliability",
+   "name": "QA and Reliability Specialist",
+   "slug": "qa-and-reliability-specialist",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "306b340c68cb918123beb82030d209de067a0378c461e03b6662d9156cbdc3e7"
+  },
+  {
+   "publicId": "skill_7814d6e149601bcd",
+   "key": "staffmor.customer45.quality-and-accessibility-reviewer",
+   "name": "Quality and Accessibility Reviewer",
+   "slug": "quality-and-accessibility-reviewer",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "8ce80aaab945192be017ac61a86004b79ab50e8b2f628964da876790c7e1370b"
+  },
+  {
+   "publicId": "skill_434612fd2b6f5ba3",
+   "key": "staffmor.customer45.research-and-decision-partner",
+   "name": "Research and Decision Partner",
+   "slug": "research-and-decision-partner",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "70faafe6ad5a41fcb9e5c1fb055fb7de01738b5db654d336445375a3bc7a49b8"
+  },
+  {
+   "publicId": "skill_7872cbb0e3fd745e",
+   "key": "agency-research/research-synthesist-7872cbb0",
+   "name": "Research Synthesist",
+   "slug": "research-synthesist",
+   "origin": "acquired",
+   "guideSha256": "9c2224b724964dce798b8d5caf0045e10cf184400c6a69ceb35d115655be0746"
+  },
+  {
+   "publicId": "skill_e5314468ddc1eb44",
+   "key": "staffmor.customer45.sales-and-customer-growth-partner",
+   "name": "Sales and Customer Growth Partner",
+   "slug": "sales-and-customer-growth-partner",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "744b5a4d686f26fa9ff4da7098ab5d8870015b06ec83cbedfe7196fdcf8d0fd3"
+  },
+  {
+   "publicId": "skill_12f757bea801a5e7",
+   "key": "agency-specialized/salesforce-architect-12f757be",
+   "name": "Salesforce Architect",
+   "slug": "salesforce-architect",
+   "origin": "acquired",
+   "guideSha256": "825ddcc39f299d45d363cdddf47ad23810493435d7e9a0c14de565a02a759d17"
+  },
+  {
+   "publicId": "skill_0ba9750e1670d5f4",
+   "key": "staffmor.customer45.security-and-privacy-specialist",
+   "name": "Security and Privacy Specialist",
+   "slug": "security-and-privacy-specialist",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "6e2dbe99bea4fa8d83c6b8f2998779db385c3c39fa3324cd68d035ed2781a6ac"
+  },
+  {
+   "publicId": "skill_a885f518e96a9b31",
+   "key": "agency-marketing/seo-specialist-a885f518",
+   "name": "SEO Specialist",
+   "slug": "seo-specialist",
+   "origin": "acquired",
+   "guideSha256": "ee8acd588a310b459a862c1be183d895de315872a95f88d84f30cc68121d7497"
+  },
+  {
+   "publicId": "skill_4d82544885dcfd83",
+   "key": "staffmor.customer45.shopping-and-deal-scout",
+   "name": "Shopping and Deal Scout",
+   "slug": "shopping-and-deal-scout",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "8cf27ff33363be4c25b80775cd5345fdebbfa6355a71deb44099675f3b496cfa"
+  },
+  {
+   "publicId": "skill_d5f06717b1ca0aa1",
+   "key": "staffmor.customer45.social-content-producer",
+   "name": "Social Content Producer",
+   "slug": "social-content-producer",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "99384d483dbad43d02bcb780e3edfdb583d38cdebba49ddab9d04145b3cb1c4b"
+  },
+  {
+   "publicId": "skill_b8a19b8c6a0aa894",
+   "key": "staffmor.customer45.software-engineer",
+   "name": "Software Engineer",
+   "slug": "software-engineer",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "0b0dbd9927ab2fd79f0a1c4d00929bb151eb93d0ea20416e0d187cfbe42d8159"
+  },
+  {
+   "publicId": "skill_18e1282012649396",
+   "key": "staffmor.customer45.sports-betting-analyst",
+   "name": "Sports Betting Analyst",
+   "slug": "sports-betting-analyst",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "7ef6d2208ba8e16e1d12a043a25a774d68cf6139c9cdf1b2b7c73c1e21a8d5df"
+  },
+  {
+   "publicId": "skill_4cea90c22b5f12ce",
+   "key": "agency-academic/statistician-4cea90c2",
+   "name": "Statistician",
+   "slug": "statistician",
+   "origin": "acquired",
+   "guideSha256": "16ed46f521c174eb5967e54ceedba122290d62792b829ecf659480afad7f2310"
+  },
+  {
+   "publicId": "skill_10859037a5647bd1",
+   "key": "agency-specialized/supply-chain-strategist-10859037",
+   "name": "Supply Chain Strategist",
+   "slug": "supply-chain-strategist",
+   "origin": "acquired",
+   "guideSha256": "eb52fbdec5e8f7d7d7e86d05cec3206c3fff985fe6a20f0f73f6731f3e84ae00"
+  },
+  {
+   "publicId": "skill_3cd66cde3fdb5638",
+   "key": "agency-engineering/technical-writer-3cd66cde",
+   "name": "Technical Writer",
+   "slug": "technical-writer",
+   "origin": "acquired",
+   "guideSha256": "4b12a97139b4e55ed7b2947c86d5e71f5703112258ba8fe24bb20772f7a08174"
+  },
+  {
+   "publicId": "skill_0c233fda2836bb5e",
+   "key": "staffmor.customer45.travel-and-local-planner",
+   "name": "Travel and Local Planner",
+   "slug": "travel-and-local-planner",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "0073ca783224785cff8d7f4f3b059a12f9458285ba1dc5e15d90a6f48e36fa36"
+  },
+  {
+   "publicId": "skill_cf8749327bd2e519",
+   "key": "staffmor.customer45.tutor-and-learning-coach",
+   "name": "Tutor and Learning Coach",
+   "slug": "tutor-and-learning-coach",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "03109844bb8fd53b8d43963133a7ee61f7ae7640a2728681b6790db216ddb884"
+  },
+  {
+   "publicId": "skill_3a3205a23c7c9857",
+   "key": "agency-design/ui-finish-gate-reviewer-3a3205a2",
+   "name": "UI Finish-Gate Reviewer",
+   "slug": "ui-finish-gate-reviewer",
+   "origin": "acquired",
+   "guideSha256": "8d6195e8e33febccc1914d3aa063b358acaa42b86c8ad498b06fcda220bef2e5"
+  },
+  {
+   "publicId": "skill_d1c13faa74f9ac37",
+   "key": "staffmor.customer45.visual-designer",
+   "name": "Visual Designer",
+   "slug": "visual-designer",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "48a26fc867e7ca512016c3ac97b39a2a73e221a20d992f56ba2f8b4e60b5c7b3"
+  },
+  {
+   "publicId": "skill_095d2f42bdd3ba61",
+   "key": "tobia/web-designer",
+   "name": "Web Designer",
+   "slug": "web-designer",
+   "origin": "owner-supplied-source",
+   "guideSha256": "b86cb43912d4196a1df0e8a1ced929a15500970aa13ab3ff1093ed04227c3573"
+  },
+  {
+   "publicId": "skill_a8d489397243d024",
+   "key": "staffmor.customer45.wellbeing-and-habit-coach",
+   "name": "Wellbeing and Habit Coach",
+   "slug": "wellbeing-and-habit-coach",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "a51b5481cab37a3f6e6f9570ddc43a9a60e46cf64ae198a8b8c5cd7da5983c35"
+  },
+  {
+   "publicId": "skill_82b71626e9080ae5",
+   "key": "agency-specialized/workflow-architect-82b71626",
+   "name": "Workflow Architect",
+   "slug": "workflow-architect",
+   "origin": "acquired",
+   "guideSha256": "1f3e58ce2faaa33769434dd73c8f9982122a9a6d7b0aa3e4685889e4006cdfbe"
+  },
+  {
+   "publicId": "skill_c73f1e5a371c6e0e",
+   "key": "dzhng/write-spec",
+   "name": "Write Spec",
+   "slug": "write-spec",
+   "origin": "upstream-mit-curated-method",
+   "guideSha256": "836a72df66114a58913c936c6eac3a912e8e975f025a623bf69baeda6c1c331c"
+  },
+  {
+   "publicId": "skill_ea918d7bdae7adac",
+   "key": "staffmor.customer45.writer-and-editor",
+   "name": "Writer and Editor",
+   "slug": "writer-and-editor",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "6041663f1a17ffcf26250ab89fe632507445f456006fd4f60b2fee80e4ac9ee2"
+  },
+  {
+   "publicId": "skill_d5ba8815bc20eb45",
+   "key": "staffmor.specialists.youtube-seo",
+   "name": "YouTube SEO Specialist",
+   "slug": "youtube-seo-specialist",
+   "origin": "staffmor-first-party-reviewed-role",
+   "guideSha256": "3a291a0cc8d7f9519c19d676cd9007e71a5f666d1a5a2e8e7f4caeb8227a0fb5"
+  },
+  {
+   "publicId": "skill_2443b0cd911d2227",
+   "key": "agency-specialized/zk-steward-2443b0cd",
+   "name": "ZK Steward",
+   "slug": "zk-steward",
+   "origin": "acquired",
+   "guideSha256": "0884d957dda895e0ace0637ee609231209e375cd22a873143cc87387c45b21a2"
+  }
+ ]
+}

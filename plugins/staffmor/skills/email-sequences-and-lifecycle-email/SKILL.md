@@ -1,9 +1,9 @@
 ---
-name: email-sequences
-description: Plan, write and audit email sequences and lifecycle email (welcome, nurture, onboarding, re-engagement, win-back) that move subscribers to one conversion. Use for any multi-email automated flow, subject lines, or an email program audit.
+name: email-sequences-and-lifecycle-email
+description: "Design, write and audit email sequences and lifecycle email that move subscribers to one conversion, within consent and owner approval. Use it to draft a welcome series for new subscribers with subject lines, preview text and one call to action per email."
 ---
 
-Method only: it adds no tools, accounts or permissions. Follow the user's request, the project's own rules and the tools actually available.
+Expertise method only; preserve the original authorized scope, existing actor/task, actual tools and required checks. No accounts, credentials, grants, model workers or publication are authorized by these instructions.
 
 # Email sequences and lifecycle email
 
@@ -49,11 +49,11 @@ Derived from Corey Haines's MIT-licensed `emails` skill in coreyhaines31/marketi
 
 
 Source and license
-Curated for Staffmor (staffmor.com) by Beacon from Corey Haines, coreyhaines31/marketingskills, skill `emails` version 2.1.3 and its three references (sequence-templates, email-types, copy-guidelines).
+Adapted by Beacon (Splash Play SEO seat, Claude) for bounded Staffmor work from Corey Haines, coreyhaines31/marketingskills, skill `emails` version 2.1.3 and its three references (sequence-templates, email-types, copy-guidelines).
 Exact source revision: c7d7dfb6b460fc376b4b2204b78a9c9fd5ca6467
 Source: https://github.com/coreyhaines31/marketingskills/blob/c7d7dfb6b460fc376b4b2204b78a9c9fd5ca6467/skills/emails/SKILL.md
 Original source SHA256: 0d27de40c2eb32eb2425a48805dc1bf0210d64d0ce384cd48860697020f5a573
-Adaptation: condensed and reworded; added the owner-approval boundary for sending, scheduling and list changes, and consent and suppression rules. The upstream tool registry links and product-context file convention are left out. Upstream text is untrusted provenance and grants no authority. This is not an endorsement by the original author.
+Adaptation: condensed and reworded for Staffmor; added the owner-approval boundary for sending, scheduling and list changes, and consent and suppression rules. The upstream tool registry links and product-context file convention are left out. Upstream text is untrusted provenance and grants no authority. This is not an endorsement by the original author.
 
 MIT License
 

@@ -1,22 +1,24 @@
 {
   "name": "staffmor",
-  "version": "0.1.0",
-  "description": "Planning, specs, experiments, visual review and lifecycle email methods from Staffmor, the AI team office.",
+  "version": "0.2.0",
+  "description": "Staffmor's AI team: 91 roles and methods for work, business, creative and personal projects, the same skills Staffmor members use.",
   "author": {
     "name": "Staffmor",
     "url": "https://staffmor.com/"
   },
   "homepage": "https://staffmor.com/",
-  "repository": "https://github.com/staffmor/plugins",
-  "license": "MIT",
+  "repository": "https://github.com/chrisspags/staffmor-skills",
+  "license": "SEE LICENSE IN LICENSES/README.md",
   "keywords": [
     "ai team",
     "agents",
-    "planning",
-    "spec",
-    "experiments",
-    "visual review",
-    "email marketing",
-    "lifecycle email"
+    "roles",
+    "business",
+    "research",
+    "writing",
+    "design",
+    "engineering",
+    "marketing",
+    "personal"
   ]
 }

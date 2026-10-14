@@ -1,9 +1,9 @@
 ---
 name: explore-unknowns
-description: Map what is known, unknown and still undecided before a hard decision, using sourced facts, concrete options and named owners. Use before committing to an approach when requirements are ambiguous or a hidden assumption could change the plan.
+description: "Map consequential uncertainty using sourced facts, concrete choices and explicit open decisions. Use it to map what is known and unresolved before one unfamiliar feature."
 ---
 
-Method only: it adds no tools, accounts or permissions. Follow the user's request, the project's own rules and the tools actually available.
+Expertise method only; preserve the original authorized scope, existing actor/task, actual tools and required checks. No accounts, credentials, grants, model workers or publication are authorized by these instructions.
 
 # Explore unknowns
 
@@ -11,7 +11,7 @@ Start with the original outcome, current owner corrections and relevant source. 
 
 1. Establish what is already known from actual files, dated evidence and owner decisions. Label assumptions separately; a historical attempt is not the desired target.
 2. List the questions that could change the next unit's scope, correctness or acceptance. Investigate source facts first. Ask only for consequential information that cannot be recovered; present a recommendation and a concrete sample or comparison when that helps.
-3. Surface tacit constraints: who consumes the result, where it runs and what useful completion looks like. Apply already approved design choices. For visual exploration, read the project's existing design system or design guidance; this skill supplies no replacement design system.
+3. Surface tacit constraints: who consumes the result, where it runs and what useful completion looks like. Apply already approved design choices. For visual exploration, resolve and read Staffmor's existing App Designer profile; this skill supplies no replacement design system.
 4. Inspect the affected boundaries for hidden traps, prior failed attempts and conventions the code actually enforces. Disclose a material finding immediately; stages never delay it. Keep unrelated findings outside the current unit with an owner and next action.
 5. Deliver a compact map: sourced facts, decisions with their attribution and rationale, assumptions, open questions with unblock conditions, and the next bounded unit. An unresolved question stays open; do not turn it into a confirmed preference.
 
@@ -32,18 +32,18 @@ Use the existing task packet. Keep one current map, not a second work queue.
 
 Close a question as **owner answered**, **source answered**, **agent judgment within existing scope**, or **open**. Agent judgment retains its reason and uncertainty; never attribute it to the owner. Do not infer personal preferences from private archives.
 
-A concrete sample should isolate the decision: an example response, a small options table or an authorized preview with clearly labelled synthetic data. Avoid building four design directions when an accepted direction already exists. Use the project's existing design process for visual work.
+A concrete sample should isolate the decision: an example response, a small options table or an authorized preview with clearly labelled synthetic data. Avoid building four design directions when an accepted direction already exists. Use the existing App Designer for visual work.
 
 Before handing off, check that each consequential unknown has either an answer or a visible dependency. Include enough source pointers and rationale for the next worker to proceed without this chat. If implementation changes an assumption, update its owning entry and the current spec. Do not preserve stale kickoff instructions alongside the corrected plan.
 
 
 Source and license
-Curated for Staffmor (staffmor.com) by GPT Skipper from David Zhang, dzhng/skills.
+Adapted by GPT Skipper for bounded Staffmor work from David Zhang, dzhng/skills.
 Exact source revision: d51322866ffa298838346960414d18a221b52588
 Source: https://github.com/dzhng/skills/blob/d51322866ffa298838346960414d18a221b52588/skills/engineering/explore-unknowns/SKILL.md
 Original source SHA256: b149931393b14c68b6d287f3ad879506ab8142ff585d6c5e7fe5338b46126db5
 Curated private source SHA256: 0f30a7ecb3f56df3064a25926bd7a7748d79d0f509d238e08f3e1ad3c59c3a2a
-The project's own design source stays authoritative; this method adds no replacement.
+Original App Designer remains the required design source; this method adds no replacement.
 
 MIT License
 

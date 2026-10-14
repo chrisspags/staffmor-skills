@@ -1,13 +1,13 @@
 ---
 name: compare-screenshots
-description: Compare a visual candidate with its approved reference or previous version using matched captures and local landmarks. Use when reviewing a reported visual regression or checking that a build matches its design.
+description: "Compare matched visual captures to an intended reference with local landmarks and honest evidence. Use it to locate and resolve a reported visual difference against an approved reference."
 ---
 
-Method only: it adds no tools, accounts or permissions. Follow the user's request, the project's own rules and the tools actually available.
+Expertise method only; preserve the original authorized scope, existing actor/task, actual tools and required checks. No accounts, credentials, grants, model workers or publication are authorized by these instructions.
 
 # Compare visible results
 
-Read the original visual requirement and the project's existing design guidance when doing product design. This procedure adds reference-comparison evidence; it does not replace the design process, create a reviewer or authorize capture, dependency installs or publication. Use permitted existing tools and the landmark method (included below).
+Read the original visual requirement and Staffmor's existing App Designer guidance when doing product design. This procedure adds reference-comparison evidence; it does not duplicate App Designer, create a reviewer or authorize capture, dependency installs or publication. Use permitted existing tools and the landmark method (included below).
 
 1. Identify the intended target. An owner-approved reference and corrections govern; a historical screenshot is an earlier attempt and may be wrong. If intent is materially ambiguous, present the pair and a concrete recommendation through the existing decision route.
 2. Confirm comparable viewport, DPR, route, UI/data state, time, framing, fonts and assets. Record differences; fix capture setup or limit the claim to a comparable region. Keep original captures and clearly label crops or alignment images.
@@ -41,12 +41,12 @@ A neutral reviewer gets the intended target, normal full frames and matched deta
 
 
 Source and license
-Curated for Staffmor (staffmor.com) by GPT Skipper from David Zhang, dzhng/skills.
+Adapted by GPT Skipper for bounded Staffmor work from David Zhang, dzhng/skills.
 Exact source revision: d51322866ffa298838346960414d18a221b52588
 Source: https://github.com/dzhng/skills/blob/d51322866ffa298838346960414d18a221b52588/skills/visual/compare-screenshots/SKILL.md
 Original source SHA256: bf514a2ee89e7c2ded88e52d178333e5623d5c67ed3eafb1825c2e9458c7b305
 Curated private source SHA256: d1275aad41375b42f90b97ad6a9cea2c1b280130b3912140a87b6154d56b3804
-The project's own design source stays authoritative; this method adds no replacement.
+Original App Designer remains the required design source; this method adds no replacement.
 
 MIT License
 

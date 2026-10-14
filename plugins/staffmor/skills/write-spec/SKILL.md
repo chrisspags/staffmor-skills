@@ -1,9 +1,9 @@
 ---
 name: write-spec
-description: Turn a large feature into small, verifiable units with explicit seams, preserved behavior and a current handoff. Use before building anything that needs more than one finished unit, or when a unit has grown too big to review.
+description: "Define finite feature contracts, behavior seams, preserved evidence and a current handoff. Use it to split an overloaded feature into verifiable units with a preservation contract."
 ---
 
-Method only: it adds no tools, accounts or permissions. Follow the user's request, the project's own rules and the tools actually available.
+Expertise method only; preserve the original authorized scope, existing actor/task, actual tools and required checks. No accounts, credentials, grants, model workers or publication are authorized by these instructions.
 
 # Write a finite spec
 
@@ -12,7 +12,7 @@ Recover the existing goal, scope decisions, project conventions and accepted evi
 1. Define the user outcome, exclusions, constraints and first useful observable result. Inspect code before asking source-answerable questions. Record compatibility, migration, privacy and recovery requirements from actual consumers; never assume a hard cutover is safe.
 2. Research only the unfamiliar dependency that affects the next decision. Use primary sources and exact revisions. If porting a proven experiment, read and freeze its code, inputs, configuration and evidence before redesigning it.
 3. Divide work at a meaningful API or behavior seam. Each unit has one question, one writer, pinned inputs, explicit outputs, acceptance evidence, allowed edits and a stop boundary. Name dependencies; do not require parallel agents merely because work can be divided.
-4. For visual work, retain the approved direction and existing design process. Provide a runnable surface or captured example suited to the question. Isolate one material visual variable when useful; fixtures, rendered behavior and actual device acceptance remain distinct.
+4. For visual work, retain the approved direction and existing App Designer process. Provide a runnable surface or captured example suited to the question. Isolate one material visual variable when useful; fixtures, rendered behavior and actual device acceptance remain distinct.
 5. Map preserved behavior to its owning unit and parity check. Name deliberately delegated implementation choices. A material unassigned choice is a gap to resolve, not a silent new requirement.
 6. Read the plan for duplicated ownership, missing consumers and forgotten owner corrections. When an implementation reveals extra scope, reslice that affected unit instead of broadening its patch.
 
@@ -32,7 +32,7 @@ For each unit record:
 
 For an accepted experiment, make a compact **behavior → evidence → unit → parity check** table. Preserve the actual winner, including behavior whose contribution is unknown. Separate required differences from experiments. Check matched requests, decisions, complete outputs and relevant recovery through the production entry point before costly confirmation; a template resemblance is not parity.
 
-For UI or imagery, name the intended target and comparable capture state. The existing design owner keeps exploration and taste. Comparison evidence may use Compare Screenshots; do not declare a fixture to be an installed or live result. Reuse unaffected accepted evidence.
+For UI or imagery, name the intended target and comparable capture state. Existing App Designer owns exploration and taste. Comparison evidence may use Compare Screenshots; do not declare a fixture to be an installed or live result. Reuse unaffected accepted evidence.
 
 Material missing credentials or dependencies stay explicit. A labelled placeholder can advance independent work, but cannot close an actual integration requirement. Required owner decisions remain pending; a reversible implementation choice already within scope does not need another approval.
 
@@ -40,12 +40,12 @@ Before closeout, reconcile every promised decision against the final artifact, i
 
 
 Source and license
-Curated for Staffmor (staffmor.com) by GPT Skipper from David Zhang, dzhng/skills.
+Adapted by GPT Skipper for bounded Staffmor work from David Zhang, dzhng/skills.
 Exact source revision: d51322866ffa298838346960414d18a221b52588
 Source: https://github.com/dzhng/skills/blob/d51322866ffa298838346960414d18a221b52588/skills/engineering/write-spec/SKILL.md
 Original source SHA256: d85197bd76497e0b200f0722955fde6c8d6d2196ff8db3638042c51e2fb1269d
 Curated private source SHA256: c555c18f5561e4dec3fa95b60bb445ad184d75d194bf9b030936e6a86f2c5b0d
-The project's own design source stays authoritative; this method adds no replacement.
+Original App Designer remains the required design source; this method adds no replacement.
 
 MIT License
 

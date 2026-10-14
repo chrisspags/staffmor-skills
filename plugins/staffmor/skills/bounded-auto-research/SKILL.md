@@ -1,9 +1,9 @@
 ---
-name: auto-research
-description: Run a bounded optimization experiment with a fixed baseline, falsifiable hypotheses and a map of which settings moved the result. Use when a decision needs measured quality, cost or speed evidence rather than opinion.
+name: bounded-auto-research
+description: "Test optimization hypotheses against a fixed baseline and return an evidence-linked parameter-effect map. Use it to measure a small optimization experiment without weakening quality checks."
 ---
 
-Method only: it adds no tools, accounts or permissions. Follow the user's request, the project's own rules and the tools actually available.
+Expertise method only; preserve the original authorized scope, existing actor/task, actual tools and required checks. No accounts, credentials, grants, model workers or publication are authorized by these instructions.
 
 # Bounded experimental research
 
@@ -36,12 +36,12 @@ Example: a 60% baseline with a five-percentage-point target requires 65%; a 5% r
 
 
 Source and license
-Curated for Staffmor (staffmor.com) by GPT Skipper from David Zhang, dzhng/skills.
+Adapted by GPT Skipper for bounded Staffmor work from David Zhang, dzhng/skills.
 Exact source revision: d51322866ffa298838346960414d18a221b52588
 Source: https://github.com/dzhng/skills/blob/d51322866ffa298838346960414d18a221b52588/skills/engineering/auto-research/SKILL.md
 Original source SHA256: 73da6a4e28275666816dbdd37f52c7bd3324b9b90a298c061b3335604cef3dbd
 Curated private source SHA256: a6d866e2baf5e080611edd2bd93c11a86ef75d5becc255b0c6081c6d90a37b12
-The project's own design source stays authoritative; this method adds no replacement.
+Original App Designer remains the required design source; this method adds no replacement.
 
 MIT License
 
