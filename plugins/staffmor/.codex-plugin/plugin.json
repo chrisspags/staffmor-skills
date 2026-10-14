@@ -43,7 +43,6 @@
     ],
     "brandColor": "#192724",
     "composerIcon": "./assets/staffmor.svg",
-    "logo": "./assets/app-icon.png",
-    "screenshots": []
+    "logo": "./assets/app-icon.png"
   }
 }

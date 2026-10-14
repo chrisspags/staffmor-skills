@@ -30,8 +30,10 @@ def check_icon(base, rel, label):
         wh = png_size(p)
         if not wh or wh[0] != wh[1] or wh[0] < 48 or wh[0] > 4096: err(f'{label}: must be square, 48 to 4096 px (got {wh})')
     if p.suffix.lower() == '.svg':
-        vb = re.search(r'viewBox="0 0 ([\d.]+) ([\d.]+)"', p.read_text(errors='ignore'))
+        svg = p.read_text(errors='ignore'); vb = re.search(r'viewBox="0 0 ([\d.]+) ([\d.]+)"', svg)
         if not vb or vb[1] != vb[2]: err(f'{label}: SVG must be square')
+        w, h = re.search(r'<svg[^>]*\swidth="([\d.]+)"', svg), re.search(r'<svg[^>]*\sheight="([\d.]+)"', svg)   # svg_dimensions_* codes
+        if not w or not h or w[1] != h[1] or float(w[1]) < 48: err(f'{label}: SVG needs numeric square width and height of at least 48')
 
 mk_path = ROOT / '.agents/plugins/marketplace.json'
 try: mk = json.loads(mk_path.read_text())
@@ -60,6 +62,15 @@ for i, entry in enumerate(mk.get('plugins') or [{}]):
     if not ui.get('capabilities'): err(f'{tag}: interface.capabilities required')
     for k in ('websiteURL', 'privacyPolicyURL', 'termsOfServiceURL'):
         if not str(ui.get(k, '')).startswith('https://'): err(f'{tag}: interface.{k} must be https')
+    if 'screenshots' in ui: err(f'{tag}: interface.screenshots must be absent in a skills-only upload (screenshot_configuration_excluded)')
+    if len(pj.get('description', '')) > 1024: err(f'{tag}: description over 1024 (plugin_description_too_long)')
+    bc = str(ui.get('brandColor', ''))
+    if bc:
+        if not re.fullmatch(r'#[0-9A-Fa-f]{6}', bc): err(f'{tag}: brandColor must be six-digit hex')
+        else:
+            lum = lambda c: (lambda v: v / 12.92 if v <= 0.03928 else ((v + 0.055) / 1.055) ** 2.4)(c / 255)
+            r, g, b2 = (int(bc[i:i + 2], 16) for i in (1, 3, 5)); L = 0.2126 * lum(r) + 0.7152 * lum(g) + 0.0722 * lum(b2)
+            if 1.05 / (L + 0.05) < 2: err(f'{tag}: brandColor contrast against white under 2:1')
     dp = ui.get('defaultPrompt') or []
     if len(dp) > 3 or any(len(x) > 128 for x in dp): err(f'{tag}: up to three default prompts of 128 characters')
     check_icon(base, ui.get('logo'), f'{tag}: logo'); check_icon(base, ui.get('composerIcon'), f'{tag}: composerIcon')
@@ -72,6 +83,8 @@ for i, entry in enumerate(mk.get('plugins') or [{}]):
         m = re.match(r'\A---\nname: ([^\n]+)\ndescription: ([^\n]+)\n---\n', s.read_text())
         if not m or m[1].strip() != s.parent.name: err(f'skill {s.parent.name}: frontmatter name must equal folder name')
         elif len(m[2]) > 1024: err(f'skill {s.parent.name}: description over 1024 characters')
+        elif len(f"{pj.get('name', '')}:{m[1].strip()}") > 64: err(f'skill {s.parent.name}: plugin:skill identity over 64 (skill_identity_too_long)')
+        if not s.read_text().split('\n---\n', 1)[-1].strip(): err(f'skill {s.parent.name}: empty body')
     cj = base / '.claude-plugin/plugin.json'
     if cj.exists() and json.loads(cj.read_text()).get('name') != pj.get('name'): err(f'{tag}: Claude manifest name differs')
 for p in ROOT.rglob('*'):
